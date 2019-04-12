@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Concealed Carry Holsters</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+	<link rel="stylesheet" href="./css/styles.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+	<svg id="morph" height="100%" width="100%" viewBox="0 0 1920 1080" preserveAspectRatio="none">
+		<path class="morph" d="M0,0H0S229.2-.542,417.608,0C689.214-3.194,676.867-.308,869.251,0s235.676-1.261,574.96,0,477.638,0,477.638,0H0Z" fill="#0E4D92"></path>
+	</svg>
+
+<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg fixed-top">
+		<div class="container">
+			  <a class="navbar-brand rubberstamp" href="#">FETEMP</a><p class="pl-1 my-auto">Frontend Templates</p>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="flex-row-reverse collapse navbar-collapse" id="collapsibleNavbar">
+			    <ul class="navbar-nav">
+			      <li class="nav-item">
+			        <a class="nav-link active" href="#home">HOME</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#about">ABOUT</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#resources">RESOURCES</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#patreon">PATREON</a>
+			      </li>
+			      <li class="nav-item mr-5">
+			        <a class="nav-link" href="#contact">CONTACT</a>
+			      </li>
+			      <li class="nav-item">
+			        <button class="btn btn-fetemp my-2 my-sm-0" type="button" id="btn-tutorials">Tutorials</button>
+			      </li>    
+			    </ul>
+			  </div> 
+		</div>
+	</nav>
+	<!-- End Navbar -->
+	<!-- Hero section -->
+	<main>
+	<div class="container-fluid p-0" id="main-page" style="overflow: hidden;">
+		<div class="jumbotron jumbotron-fluid m-0" id="home">
+			<video autoplay muted loop poster="https://dummyimage.com/900x400/000/fff">    
+			    <source src="" data-src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4">
+			    <source src="" data-src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.webm" type="video/webm">
+			    <source src="" data-src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv" type="video/ogg">
+			</video>
+
+			<div class="container" id="vid-top">
+				
+				<h5 class="jt-margin">Welcome to Frontend Templates</h5>
+				<h1>FRONTEND WEB DEVELOPMENT <br>TUTORIALS & COURSES</h1>
+				<button class="btn btn-fetemp btn-lg jt-margin" id="btn-videos">View Recent Videos</button>
+			</div>
+		</div>
+	</div>
+	<!-- Subscribe -->
+	<div class="container-fluid" style="background: #73C2FB">
+		<div class="row py-4">
+			<div class="container justify-content-center">
+				<div class="col-8 mx-auto">
+					<div><h3 class="text-center pt-5">Want updates on new tutorials?</h3></div>
+					<div class="input-group mb-3">
+					  <input type="text" class="form-control" placeholder="Enter Email" aria-label="Email" aria-describedby="basic-addon2">
+					  <div class="input-group-append">
+					    <button class="btn btn-fetemp" type="button">Yes!</button>
+					  </div>
+					</div>
+					<div><h6 class="text-center text-uppercase font-italic pb-5">Your email address will never be shared</h6></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- About Section -->
+	<div class="container-fluid" id="about">
+		<div class="row py-4">
+			<div class="container justify-content-center">
+				<div class="col-8 mx-auto">
+					<div><h3 class="text-center pt-5"><span class="fetemp-title">About Joey Scott & FETEMP</span></h3></div>
+					<div><h6 class="text-center py-5">Joey is the creator of Frontend Templates and the instructor in the tutorials.</h6></div>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12 col-md-6 text-center"><img class="about-img" src="./images/joey_scott_bust_01.jpg" alt="Frontend Templates CEO Joey Scott"></div>
+							<div class="col-12 col-md-6"><p>After a 12 year career in a field he didnt enjoy, Joey decided to take a leap and do what he loved and became a web developer. After successfully transitioning careers in a short period of time Joey chose to start making tutorials for others who are exploring web development as a hobby or career. Frontend Templates is the result of that decision and were happy your here!</p><p>Joey is also a family oriented father of two children and enjoys many nerdy things which he loves to reference when he can.</p></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Social Links Section -->
+	<div class="container-fluid" style="background: #588BAE">
+		<div class="row py-4">
+			<div class="container justify-content-center">
+				<div class="col-8 mx-auto">
+					<div><h2 class="text-center pt-5">FOLLOW ME</h2></div>
+					<div><h1 class="text-center pb-5 social"><i class="fab fa-facebook-square"></i><i class="fab fa-twitter-square"></i><i class="fab fa-instagram"></i></h1></div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- Resources Section -->
+	
+	<div class="container-fluid" id="resources">
+		<div class="row py-4">
+			<div class="container justify-content-center">
+				<div class="col-8 mx-auto">
+					<div><h3 class="text-center pt-5"><span class="fetemp-title">Resources</span></h3></div>
+					<div><h6 class="text-center py-5">The following is a list of resources that we know can help you on your way to learning and practicing Frontend Web Development.</h6></div>
+					<div><h6 class="text-center py-5 font-italic">Some of the links below are affiliate links, which means that if you choose to make a purchase, I will earn a commission. This commission comes at no additional cost to you. Please understand that I have experience with all of these companies, and I recommend them because they are helpful and useful, not because of the small commissions I make if you decide to buy something. Please do not spend any money on these products unless you feel you need them or that they will help you achieve your goals.</h6></div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-3 text-center bg-dark rounded p-1 m-2"><h3>Resource Header</h3><div>Resource Image</div><div>Short Description of resource.</div><div><button class="btn btn-fetemp">Get It Now!</button></div></div>
+					<div class="col-12 col-md-3 text-center bg-dark rounded p-1 m-2"><h3>Resource Header</h3><div>Resource Image</div><div>Short Description of resource.</div><div><button class="btn btn-fetemp">Get It Now!</button></div></div>
+					<div class="col-12 col-md-3 text-center bg-dark rounded p-1 m-2"><h3>Resource Header</h3><div>Resource Image</div><div>Short Description of resource.</div><div><button class="btn btn-fetemp">Get It Now!</button></div></div>
+					<div class="col-12 col-md-3 text-center bg-dark rounded p-1 m-2"><h3>Resource Header</h3><div>Resource Image</div><div>Short Description of resource.</div><div><button class="btn btn-fetemp">Get It Now!</button></div></div>
+					<div class="col-12 col-md-3 text-center bg-dark rounded p-1 m-2"><h3>Resource Header</h3><div>Resource Image</div><div>Short Description of resource.</div><div><button class="btn btn-fetemp">Get It Now!</button></div></div>
+					<div class="col-12 col-md-3 text-center bg-dark rounded p-1 m-2"><h3>Resource Header</h3><div>Resource Image</div><div>Short Description of resource.</div><div><button class="btn btn-fetemp">Get It Now!</button></div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Patreon Section -->
+	<div class="container-fluid py-5" style="background: #7285A5;" id="patreon">
+		<div class="row py-5">
+			<div class="container justify-content-center py-5">
+				<div class="container-fluid">
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-5 p-4 rounded m-2 bg-dark"><h2>BECOME A PATRON</h2><p>Joey is dedicated to releasing free weekly content for others to learn web development. Join his Patreon to show your support and gratitude. Any amount helps and means a lot. Thanks for your support!</p><div><button class="btn btn-fetemp">Join the FETEMP Patreon</button></div></div>
+							<div class="col-12 col-md-5 p-4 rounded m-2 bg-dark"><h2>PATREON BENEFITS</h2><p>By becomming a patron for any amount you can have access to all code and files used within the Frontend Templates tutorials.</p><p>Tutorials are released every week and there is bound to be something useful for anyone interested.</p></div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+		<!-- Contact Section -->
+	<div class="container-fluid" id="contact">
+		<div class="row py-4">
+			<div class="container justify-content-center">
+				<div class="col-8 mx-auto">
+					<div><h2 class="text-center pt-5">CONTACT US</h2></div>
+					<div><h1 class="text-center pb-5 social">support@fetemp.com</h1></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</main>
+
+	<!-- video highlights page -->
+	<div class="container-fluid p-0" id="portfolio-page">
+		<div class="jumbotron jumbotron-fluid" style="background: #6593F5">
+			<div class="container">
+				<h5>Welcome to FETEMP Videos</h5>
+				<h2>RECENTLY PUBLISHED <br>TUTORIALS VIDEOS</h2>
+				<hr class="my-4">
+				<p>See the list below for the most recently published videos on our YouTube Channel.</p>
+				<button class="btn btn-fetemp btn-lg" id="btn-main">Back</button>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+	        <div class="row mt-0 pt-0">
+	            <div class="col-12 col-sm-12 col-md-4 my-1">
+	                <div class="container bg-dark rounded" id="card1">
+	                	<div class="row py-2">
+	                		<div class="col-12 text-center"><iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
+	                		<div class="col-12"><h3 class="text-center">Title of Video</h3></div>
+	                		<div class="col-12 text-center"><p>This is a short description of the video being highlighted.</p></div>
+	                	</div>
+	                </div>
+	            </div>
+	            <div class="col-12 col-sm-12 col-md-4 my-1">
+	                <div class="container bg-dark rounded" id="card2">
+	                	<div class="row py-2">
+	                		<div class="col-12 text-center"><iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
+	                		<div class="col-12"><h3 class="text-center">Title of Video</h3></div>
+	                		<div class="col-12 text-center"><p>This is a short description of the video being highlighted.</p></div>
+	                	</div>
+	                </div>
+	            </div>
+				<div class="col-12 col-sm-12 col-md-4 my-1">
+	                <div class="container bg-dark rounded" id="card3">
+	                	<div class="row py-2">
+	                		<div class="col-12 text-center"><iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
+	                		<div class="col-12"><h3 class="text-center">Title of Video</h3></div>
+	                		<div class="col-12 text-center"><p>This is a short description of the video being highlighted.</p></div>
+	                	</div>
+	                </div>
+	            </div>
+	            <div class="col-12 col-sm-12 col-md-4 my-1">
+	                <div class="container bg-dark rounded" id="card4">
+	                	<div class="row py-2">
+	                		<div class="col-12 text-center"><iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
+	                		<div class="col-12"><h3 class="text-center">Title of Video</h3></div>
+	                		<div class="col-12 text-center"><p>This is a short description of the video being highlighted.</p></div>
+	                	</div>
+	                </div>
+	            </div>
+	            <div class="col-12 col-sm-12 col-md-4 my-1">
+	                <div class="container bg-dark rounded" id="card5">
+	                	<div class="row py-2">
+	                		<div class="col-12 text-center"><iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
+	                		<div class="col-12"><h3 class="text-center">Title of Video</h3></div>
+	                		<div class="col-12 text-center"><p>This is a short description of the video being highlighted.</p></div>
+	                	</div>
+	                </div>
+	            </div>
+				<div class="col-12 col-sm-12 col-md-4 my-1">
+	                <div class="container bg-dark rounded" id="card6">
+	                	<div class="row py-2">
+	                		<div class="col-12 text-center"><iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
+	                		<div class="col-12"><h3 class="text-center">Title of Video</h3></div>
+	                		<div class="col-12 text-center"><p>This is a short description of the video being highlighted.</p></div>
+	                	</div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+
+	<script>
+		var videosBtn = document.getElementById('btn-videos');
+		var tutorialsBtn = document.getElementById('btn-tutorials');
+		var mainBtn = document.getElementById('btn-main');
+		var mainPage = document.getElementById('main-page');
+		var portfolioPage = document.getElementById('portfolio-page');
+		var overlay = document.getElementById('morph');
+		var card1 = document.getElementById('card1');
+		var card2 = document.getElementById('card2');
+		var card3 = document.getElementById('card3');
+		var card4 = document.getElementById('card4');
+		var card5 = document.getElementById('card5');
+		var card6 = document.getElementById('card6');
+
+		var morphing = anime({
+			targets: '.morph',
+			d: [
+				{ value: 'M0,0V539.944s239.58-213.26,427.986-212.718c271.606-3.194,268.59,343.123,462.347,339.116s229.3-313.076,554.309-324.975,477.207,198.577,477.207,198.577V0Z'},
+				{ value: 'M0,0V1083.166s238.539-.542,426.945,0c271.606-3.194,258.045,4.007,451.8,0s227.989-.915,551.526,0,491.577,0,491.577,0V0Z'}
+			],
+			easing: 'easeInOutQuint',
+			duration: 1300,
+			loop: false,
+			autoplay: false
+		});
+
+		videosBtn.addEventListener('click', () => {
+			$("html, body").animate({ scrollTop: 0 }, "fast");
+			setTimeout(()=>{
+				$("main").fadeOut();
+			morphing.restart();
+			overlay.classList.add('pointer');
+			portfolioPage.classList.add('animated', 'display', 'lightSpeedIn', 'delay-1s');
+			card1.classList.add('animated', 'display', 'bounceIn', 'delay-2s');
+			card2.classList.add('animated', 'display', 'bounceIn', 'delay-2s');
+			card3.classList.add('animated', 'display', 'bounceIn', 'delay-2s');
+
+			card4.classList.add('animated', 'display', 'bounceIn', 'delay-3s');
+			card5.classList.add('animated', 'display', 'bounceIn', 'delay-3s');
+			card6.classList.add('animated', 'display', 'bounceIn', 'delay-3s');
+			$('.navbar').fadeOut();
+			}, 500);
+		});
+
+		tutorialsBtn.addEventListener('click', () => {
+			$("html, body").animate({ scrollTop: 0 }, "fast");
+			setTimeout(()=>{
+				$("main").fadeOut();
+			morphing.restart();
+			overlay.classList.add('pointer');
+			portfolioPage.classList.add('animated', 'display', 'lightSpeedIn', 'delay-1s');
+			card1.classList.add('animated', 'display', 'bounceIn', 'delay-2s');
+			card2.classList.add('animated', 'display', 'bounceIn', 'delay-2s');
+			card3.classList.add('animated', 'display', 'bounceIn', 'delay-2s');
+
+			card4.classList.add('animated', 'display', 'bounceIn', 'delay-3s');
+			card5.classList.add('animated', 'display', 'bounceIn', 'delay-3s');
+			card6.classList.add('animated', 'display', 'bounceIn', 'delay-3s');
+			$('.navbar').fadeOut();
+			}, 500);
+		});
+
+		mainBtn.addEventListener('click', () => {
+			portfolioPage.classList.remove('lightSpeedIn', 'delay-1s');
+			card1.classList.remove('bounceIn', 'delay-2s');
+			card2.classList.remove('bounceIn', 'delay-2s');
+			card3.classList.remove('bounceIn', 'delay-2s');
+			card4.classList.remove('bounceIn', 'delay-3s');
+			card5.classList.remove('bounceIn', 'delay-3s');
+			card6.classList.remove('bounceIn', 'delay-3s');
+			portfolioPage.classList.add('lightSpeedOut');
+			card1.classList.add('fadeOut');
+			card2.classList.add('fadeOut');
+			card3.classList.add('fadeOut');
+			card4.classList.add('fadeOut');
+			card5.classList.add('fadeOut');
+			card6.classList.add('fadeOut');
+			setTimeout(()=>{
+				morphing.reverse();
+				morphing.play();
+				overlay.classList.remove('pointer');
+				portfolioPage.classList.remove('animated', 'display', 'lightSpeedOut', 'delay-1s', 'fadeOut');
+				card1.classList.remove('animated', 'display', 'bounceIn', 'delay-2s', 'fadeOut');
+				card2.classList.remove('animated', 'display', 'bounceIn', 'delay-2s', 'fadeOut');
+				card3.classList.remove('animated', 'display', 'bounceIn', 'delay-2s', 'fadeOut');
+				card4.classList.remove('animated', 'display', 'bounceIn', 'delay-3s', 'fadeOut');
+				card5.classList.remove('animated', 'display', 'bounceIn', 'delay-3s', 'fadeOut');
+				card6.classList.remove('animated', 'display', 'bounceIn', 'delay-3s', 'fadeOut');
+				$("main").fadeIn();
+				$('.navbar').fadeIn();
+			}, 1000);
+			
+		});
+
+
+	function deferVideo() {
+
+    //defer html5 video loading
+	  $("video source").each(function() {
+	    var sourceFile = $(this).attr("data-src");
+	    $(this).attr("src", sourceFile);
+	    var video = this.parentElement;
+	    video.load();
+	    // uncomment if video is not autoplay
+	    //video.play();
+	  });
+
+	}
+	window.onload = deferVideo();
+
+	$(window).scroll(function() {    
+	    var scroll = $(window).scrollTop();
+
+	    if (scroll >= 100) {
+	        $(".navbar-brand").addClass("shrink");
+	        $(".navbar").addClass("darker");
+	    } else {
+	        $(".navbar-brand").removeClass("shrink");
+	        $(".navbar").removeClass("darker");
+	    }
+	});
+	</script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'RubberStamp';
+    src: url('RUBBERSTAMP.woff') format('woff'),
+    	 url('RUBBERSTAMP.woff2') format('woff2'),
+         url('RUBBERSTAMP.otf') format('opentype'),
+         url('RUBBERSTAMP.svg') format('svg');
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	width: 100%;
+	height: 100%;
+	background: #141d38;
+	color: #eceff8;
+}
+.navbar {
+	background-color: rgba(0, 0, 0, 0.45);
+	transition: 0.3s;
+}
+
+.darker {
+	background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.rubberstamp {
+	font-family: "RubberStamp";
+	color: #73C2FB !important;
+	text-shadow:1px 1px 20px blue;
+}
+.navbar .container .navbar-brand {
+	font-size: 3em;
+	transition: 0.2s;
+}
+.navbar .container .shrink {
+	font-size: 1.5em !important;
+}
+/* Custom BS4 Button */
+.btn-fetemp { 
+  color: #ECEFF8; 
+  background-color: #0080FF; 
+} 
+
+.navbar .navbar-nav .nav-item .nav-link {
+	color: white;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+	color: #0E4D92;
+}
+
+.navbar .navbar-nav .nav-item .active {
+	color: #0E4D92;
+	text-decoration: underline;
+}
+ 
+.btn-fetemp:hover, 
+.btn-fetemp:focus, 
+.btn-fetemp:active, 
+.btn-fetemp.active, 
+.open .dropdown-toggle.btn-fetemp { 
+  color: #ECEFF8; 
+  background-color: #1034A6; 
+} 
+ 
+.btn-fetemp:active, 
+.btn-fetemp.active, 
+.open .dropdown-toggle.btn-fetemp { 
+  background-image: none; 
+} 
+ 
+.btn-fetemp.disabled, 
+.btn-fetemp[disabled], 
+fieldset[disabled] .btn-fetemp, 
+.btn-fetemp.disabled:hover, 
+.btn-fetemp[disabled]:hover, 
+fieldset[disabled] .btn-fetemp:hover, 
+.btn-fetemp.disabled:focus, 
+.btn-fetemp[disabled]:focus, 
+fieldset[disabled] .btn-fetemp:focus, 
+.btn-fetemp.disabled:active, 
+.btn-fetemp[disabled]:active, 
+fieldset[disabled] .btn-fetemp:active, 
+.btn-fetemp.disabled.active, 
+.btn-fetemp[disabled].active, 
+fieldset[disabled] .btn-fetemp.active { 
+  background-color: #0080FF;  
+} 
+ 
+.btn-fetemp .badge { 
+  color: #0080FF; 
+  background-color: #ECEFF8; 
+}
+/* End Custom bS4 Button */
+
+.jumbotron .jt-margin {
+	margin-top: 5em;
+}
+
+#morph {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	z-index: 3;
+}
+
+.jumbotron video {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width:100%;
+  height:100%;
+  /*  object-fit is not supported on IE  */
+  object-fit: cover;
+  opacity:0.5;
+}
+.fetemp-title {
+	border-bottom: 5px solid #0080FF;
+	padding-bottom: 5px;
+}
+
+.social i {
+	padding: 0 10px 0 10px;
+	font-size: 2.5em;
+}
+
+.about-img {
+	max-width: 100%;
+	border-radius: 50%;
+	height: auto;
+}
+
+#main-page, #vid-top {
+	position: relative;
+	z-index: 2;
+}
+#portfolio-page {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 4;
+}
+
+#card1, #card2, #card3 {
+	display: none;
+}
+
+.pointer {
+	pointer-events: auto !important;
+}
+
+.display {
+	display: block !important;
+}
